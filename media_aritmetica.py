@@ -7,4 +7,4 @@ valorB = int(input('Informe o segundo valor:'))
 
 media = (valorA + valorB) / 2
 
-print(f'A média aritmética dos valores é: {media}')
+print(f'A média aritmética entre {valorA} e {valorB} é: {media}')
