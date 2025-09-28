@@ -8,3 +8,4 @@ area = pi * (raio ** 2)
 
 #Imprimir valor da area
 print(f'A area do circulo é: {area: .2f}.')
+8
