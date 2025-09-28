@@ -1,10 +1,12 @@
 #ATIVIDADE - CONVERSOR DE MOEDA
 
+input('Vamos converter o valor em reais (R$) para dólar (US$) !!!')
+
 #USUARIO VAI DIGITAR O VALOR EM REAL
 valorReais = float(input('Informe o valor em R$: '))
 
 #USUARIO VAI DIGITAR O VALOR EM DOLAR
-cotacaoDolar = float(input('Informe a cotação do dolar US$:'))
+cotacaoDolar = float(input('Informe a cotação do dólar US$:'))
 
 #CONVERTER REAL EM DOLAR
 converter = valorReais / cotacaoDolar
