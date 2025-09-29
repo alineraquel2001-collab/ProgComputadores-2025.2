@@ -12,5 +12,6 @@ cotacaoDolar = float(input('Informe a cotação do dólar US$:'))
 converter = valorReais / cotacaoDolar
 
 #MOSTRA RESULTADO - REAL CONVERTIDO EM DOLAR
+print('-----------------------------------------------------------------------')
 print(f'Com {valorReais} você poderá comprar aproxidamente US$ {converter:.2f}')
 
