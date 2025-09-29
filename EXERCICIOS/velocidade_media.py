@@ -12,4 +12,5 @@ tempo = float(input('Informe o tempo gasto em horas: '))
 velocidadeMedia = distancia / tempo
 
 #MOSTRAR RESULTADO
+print('-----------------------------------------------------')
 print(f'A velocidade média foi de {velocidadeMedia:.2f} km/h')
