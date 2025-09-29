@@ -6,16 +6,17 @@ print('Simular conta de restaurante!!!')
 valorConta = float(input('Informe o valor da sua conta (R$): '))
 
 #USUARIO VAI INFORMAR A PORCENTAGEM DA GORJETA
-porcentatemGorjeta = float(input('Informe a porcentagem da gorjeta (%): '))
+porcentagemGorjeta = float(input('Informe a porcentagem da gorjeta (%): '))
 
 #CALCULAR GORJETA
-gorjeta = valorConta * (porcentatemGorjeta / 100)
+gorjeta    = valorConta * (porcentagemGorjeta / 100)
 
 #CALCULAR TOTAL DA CONTA
 valorTotal = valorConta + gorjeta
 
 #MOSTAR RESULTADO
+print('----------------------------------------------------')
 print(f'O valor da conta: R$ {valorConta:.2f}')
-print(f'A porcentagem da gorjeta: {porcentatemGorjeta} %') 
-print(f'O valor total a ser pago é: R$  {valorTotal:.2f}')
+print(f'Gorjeta: ({porcentagemGorjeta} %): R$ {gorjeta:.2f}') 
+print(f'O valor total a ser pago é: R$ {valorTotal:.2f}')
 
