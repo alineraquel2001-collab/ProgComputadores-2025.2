@@ -1,6 +1,6 @@
 #ATIVIDADE - CONVERSOR DE TEMPERATURA CELSIUS PARA FAHRENHEIT
 
-input('Vamos converter a temperatura de Celsius (°C) para Fahrenheit (°F) !!!')
+print('Vamos converter a temperatura de Celsius (°C) para Fahrenheit (°F) !!!')
 
 #USUARIO VAI DIGITAR A TEMPERATURA EM GRAUS CELSIUS
 celsius = float(input('Informe a temperatura em graus Celsius °C: '))
