@@ -1,6 +1,6 @@
 #ATIVIDADE - CONVERSOR DE MOEDA
 
-input('Vamos converter o valor em reais (R$) para dólar (US$) !!!')
+print('Vamos converter o valor em reais (R$) para dólar (US$) !!!')
 
 #USUARIO VAI DIGITAR O VALOR EM REAL
 valorReais = float(input('Informe o valor em R$: '))
